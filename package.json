@@ -1,0 +1,16 @@
+{
+  "name": "js-cp-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "cp ./template.dart ./src/index.dart",
+    "archive": "mv ./src/index.dart ./archives/index.dart && npm run setup",
+    "clip": "pbcopy < ./src/index.dart"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {}
+}
